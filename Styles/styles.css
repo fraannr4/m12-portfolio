@@ -293,3 +293,82 @@ footer {
 .how-made:hover {
     color: #357abd;
 }
+
+/* Estilos existentes... */
+
+/* Añadir al final del archivo */
+
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    #inicio {
+      padding: 150px 20px;
+    }
+  
+    #inicio h1 {
+      font-size: 40px;
+    }
+  
+    #inicio p {
+      font-size: 20px;
+    }
+  
+    #inicio a {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  
+    #sobremi {
+      grid-template-columns: 1fr;
+      padding: 30px;
+      margin: 30px 10px;
+    }
+  
+    #skills div {
+      margin: 20px 10px;
+    }
+  
+    .projecte {
+      width: 80%;
+      height: auto;
+    }
+  
+    .contact-section {
+      padding: 1rem;
+    }
+  
+    .footer-content {
+      padding: 0 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body h1 {
+      font-size: 30px;
+    }
+  
+    #inicio h1 {
+      font-size: 30px;
+    }
+  
+    #inicio p {
+      font-size: 18px;
+    }
+  
+    #skills div {
+      min-width: 200px;
+    }
+  }
